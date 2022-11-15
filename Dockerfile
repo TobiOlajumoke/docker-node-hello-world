@@ -4,6 +4,7 @@ COPY . /src
 RUN cd /src && npm install
 EXPOSE 4000
 ###############
+
 ###Second stage###
 FROM alpine
 WORKDIR /app
